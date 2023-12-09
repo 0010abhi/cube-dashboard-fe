@@ -1,0 +1,12 @@
+{
+    "limit": 5000,
+    "measures": [
+        "users.count"
+    ],
+    "order": {
+        "users.count": "desc"
+    },
+    "dimensions": [
+        "users.gender"
+    ]
+}

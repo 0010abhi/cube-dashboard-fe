@@ -1,0 +1,11 @@
+{
+    "measures": [
+        "products.count"
+    ],
+    "dimensions": [
+        "product_categories.name"
+    ],
+    "order": {
+        "products.count": "desc"
+    }
+}
