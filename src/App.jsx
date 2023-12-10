@@ -42,7 +42,7 @@ export default function App() {
         Demo Cube JS
       </h5>
       <AppTabs tabConfig={APP_TABS} activeTab={activeTab} setActiveTab={setActiveTab} />
-      <TabContent activeTab={activeTab}>
+      <TabContent style={{marginTop: "52px"}} activeTab={activeTab}>
         {
           APP_TABS.map((tab, index) => renderTabPane(tab, index))
         }
