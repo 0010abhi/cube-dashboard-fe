@@ -6,6 +6,7 @@ import ProductCategoryCount from './components/ProductCategoryCount';
 import AppTabs from './components/common/Tabs';
 import AppTabPane from './components/common/TabPane';
 import APP_TABS from './config/tab';
+import OrdersCount from './components/OrdersCount';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("1");
@@ -26,7 +27,7 @@ export default function App() {
         break;
       case "3":
         ele = <AppTabPane tabId={tab.id} key={index}>
-          <ProductCategoryCount />
+          <OrdersCount />
         </AppTabPane>
         break;
       default:
